@@ -1,3 +1,5 @@
+QIWI SDK / [Exports](modules.md)
+
 # Package name
 
 > Package description
@@ -19,7 +21,6 @@
 1. Replace package name and package description here and in [package.json](./package.json)
 2. Replace `AlexXanderGrib/package-template` to your repository
 3. Replace `_package-template_` to your package name
-4. Set `private` to `false` in package.json
 
 ## 📦 Installation
 
@@ -35,14 +36,4 @@
   ```shell
   pnpm add _package-template_
   ```
-
-## ⚙️ Usage
-
-```javascript
-import { Example } from "_package-template_";
-
-const container = new Example(10);
-
-console.log(container);
-// Example { value: 10 }
-```
+# package-template
