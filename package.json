@@ -1,5 +1,5 @@
 {
-  "name": "_package-template_",
+  "name": "package_template",
   "version": "1.0.0",
   "description": "🚀 Package template",
   "scripts": {
@@ -14,7 +14,7 @@
     "lint": "eslint src/*",
     "prettify": "prettier --write src/**/*"
   },
-  "private": true,
+  "private": false,
   "main": "./index.js",
   "module": "./index.mjs",
   "type": "commonjs",

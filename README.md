@@ -1,18 +1,18 @@
-# Package name
+# Quality Package Template
 
-> Package description
+> Package template that can get you `99%` quality and `33%` maintenance on `npm`
 
 [![Test Status](https://github.com/AlexXanderGrib/package-template/actions/workflows/test.yml/badge.svg)](https://github.com/AlexXanderGrib/package-template)
-[![Downloads](https://img.shields.io/npm/dt/_package-template_.svg)](https://npmjs.com/package/_package-template_)
+[![Downloads](https://img.shields.io/npm/dt/package_template.svg)](https://npmjs.com/package/package_template)
 [![last commit](https://img.shields.io/github/last-commit/AlexXanderGrib/package-template.svg)](https://github.com/AlexXanderGrib/package-template)
 [![codecov](https://img.shields.io/codecov/c/github/AlexXanderGrib/package-template/main.svg)](https://codecov.io/gh/AlexXanderGrib/package-template)
 [![GitHub](https://img.shields.io/github/stars/AlexXanderGrib/package-template.svg)](https://github.com/AlexXanderGrib/package-template)
-[![_package-template_](https://snyk.io/advisor/npm-package/_package-template_/badge.svg)](https://snyk.io/advisor/npm-package/_package-template_)
-[![Known Vulnerabilities](https://snyk.io/test/npm/_package-template_/badge.svg)](https://snyk.io/test/npm/_package-template_)
-[![Quality](https://img.shields.io/npms-io/quality-score/_package-template_.svg?label=quality%20%28npms.io%29&)](https://npms.io/search?q=_package-template_)
-[![npm](https://img.shields.io/npm/v/_package-template_.svg)](https://npmjs.com/package/_package-template_)
-[![license MIT](https://img.shields.io/npm/l/_package-template_.svg)](https://github.com/AlexXanderGrib/_package-template_/blob/main/LICENSE.txt)
-[![Size](https://img.shields.io/bundlephobia/minzip/_package-template_)](https://bundlephobia.com/package/_package-template_)
+[![package_template](https://snyk.io/advisor/npm-package/package_template/badge.svg)](https://snyk.io/advisor/npm-package/package_template)
+[![Known Vulnerabilities](https://snyk.io/test/npm/package_template/badge.svg)](https://snyk.io/test/npm/package_template)
+[![Quality](https://img.shields.io/npms-io/quality-score/package_template.svg?label=quality%20%28npms.io%29&)](https://npms.io/search?q=package_template)
+[![npm](https://img.shields.io/npm/v/package_template.svg)](https://npmjs.com/package/package_template)
+[![license MIT](https://img.shields.io/npm/l/package_template.svg)](https://github.com/AlexXanderGrib/package_template/blob/main/LICENSE.txt)
+[![Size](https://img.shields.io/bundlephobia/minzip/package_template)](https://bundlephobia.com/package/package_template)
 
 ## Why use this template
 
@@ -28,29 +28,46 @@
 
 1. Replace package name and package description here and in [package.json](./package.json)
 2. Replace `AlexXanderGrib/package-template` to your repository
-3. Replace `_package-template_` to your package name
-4. Set `private` to `false` in package.json
-5. Remember to run `npm test` before publishing to include coverage files in package and increase quality of your package
+3. Replace `package_template` to your package name
+4. Write some code and cover it with tests
+
+### How to max `quality`
+
+1. Write tests and increase coverage. To exclude files with destructive side-effects, you can use following comment
+   ```javascript
+   /* istanbul ignore file */
+   ```
+2. Everything else is already in this template
+   1. TypeScript support
+   2. Auto build to both ES-Modules and CommonJS
+   3. TS-Jest
+   4. Exports mapping
+   5. Git Hooks
+3. Remember to run `npm test` before publishing to include coverage files in package and increase quality of your package
+
+### How to max `maintenance`?
+
+Upload 3 versions of your package in 24 hours. You can not get more than 33% maintenance on `npm`
 
 ## 📦 Installation
 
 - **Using `npm`**
   ```shell
-  npm i _package-template_
+  npm i package_template
   ```
 - **Using `Yarn`**
   ```shell
-  yarn add _package-template_
+  yarn add package_template
   ```
 - **Using `pnpm`**
   ```shell
-  pnpm add _package-template_
+  pnpm add package_template
   ```
 
 ## ⚙️ Usage
 
 ```javascript
-import { Example } from "_package-template_";
+import { Example } from "package_template";
 
 const container = new Example(10);
 
