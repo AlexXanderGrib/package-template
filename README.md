@@ -11,7 +11,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/npm/package_template/badge.svg)](https://snyk.io/test/npm/package_template)
 [![Quality](https://img.shields.io/npms-io/quality-score/package_template.svg?label=quality%20%28npms.io%29&)](https://npms.io/search?q=package_template)
 [![npm](https://img.shields.io/npm/v/package_template.svg)](https://npmjs.com/package/package_template)
-[![license MIT](https://img.shields.io/npm/l/package_template.svg)](https://github.com/AlexXanderGrib/package_template/blob/main/LICENSE.txt)
+[![license MIT](https://img.shields.io/npm/l/package_template.svg)](https://github.com/AlexXanderGrib/package-template/blob/main/LICENSE.txt)
 [![Size](https://img.shields.io/bundlephobia/minzip/package_template)](https://bundlephobia.com/package/package_template)
 
 ## Why use this template
