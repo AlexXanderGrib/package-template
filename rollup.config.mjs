@@ -16,7 +16,7 @@ const config = {
   ],
   output: [
     {
-      dir: "./dist/cjs",
+      dir: "./dist",
       format: "commonjs",
       exports: "named",
       preserveModules: true,
@@ -31,7 +31,7 @@ const config = {
       minifyInternalExports: true
     },
     {
-      dir: "./dist/esm",
+      dir: "./dist",
       format: "module",
       exports: "named",
       preserveModules: true,
@@ -55,7 +55,7 @@ const config = {
     propertyReadSideEffects: false
   },
   plugins: [
-    typescript({ tsconfig: "./tsconfig.build.json" }),
+    typescript({ tsconfig: "./tsconfig.json" }),
     cleanup({
       extensions: ["js", "ts", "mjs"],
       comments: ["jsdoc"],

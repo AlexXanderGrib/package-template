@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
-    "module": "es2020",
+    "target": "ES2017",
+    "module": "ES2020",
     "lib": [
       "ESNext"
     ],
@@ -23,10 +23,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
-    "types": [
-      "node",
-      "jest"
-    ],
+    "types": ["jest"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -35,10 +32,11 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "stripInternal": true,
-    "importsNotUsedAsValues": "error"
+    "importsNotUsedAsValues": "error",
   },
   "exclude": [
     "dist",
-    "examples"
+    "examples",
+    "src/__tests__"
   ]
 }
