@@ -44,6 +44,7 @@
    4. Exports mapping
    5. Git Hooks
 3. Remember to run `npm test` before publishing to include coverage files in package and increase quality of your package
+4. **PUBLISH USING ONLY NPM**. Not doing this will decrease score by 15-25%
 
 ### How to max `maintenance`?
 

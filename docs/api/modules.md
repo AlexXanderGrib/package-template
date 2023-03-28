@@ -1,6 +1,6 @@
-[QIWI SDK](README.md) / Exports
+[Package](README.md) / Exports
 
-# QIWI SDK
+# Package
 
 ## Table of contents
 
