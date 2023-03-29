@@ -4,12 +4,16 @@
 
 ## Table of contents
 
-### Properties
+### References
 
 - [default](modules.md#default)
 
-## Properties
+### Classes
+
+- [Example](classes/Example.md)
+
+## References
 
 ### default
 
-• **default**: `any`
+Renames and re-exports [Example](classes/Example.md)

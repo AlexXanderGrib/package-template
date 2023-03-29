@@ -12,7 +12,10 @@ const config = {
   input: [...glob.sync("./src/index.ts")],
   external: [
     ...builtinModules,
-    ...Object.keys({ ...packageJson.devDependencies, ...packageJson.dependencies })
+    ...Object.keys({
+      ...packageJson.devDependencies,
+      ...packageJson.dependencies
+    })
   ],
   output: [
     {
